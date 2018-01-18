@@ -366,69 +366,69 @@ header.video {
 .portfolio-gallery .item {
   padding: 15px; }
 
-.portfolio-modal {
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-attachment: scroll; }
-  @media (min-width: 1024px) {
-    .portfolio-modal {
-      background-attachment: fixed; } }
-  @media only screen and (min-device-width: 768px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
-    .portfolio-modal {
-      background-attachment: scroll; } }
-  .portfolio-modal .modal-backdrop {
-    display: none; }
-  .portfolio-modal .modal-dialog {
-    max-width: none; }
-    .portfolio-modal .modal-dialog .modal-content {
-      min-height: 100%;
-      padding: 100px 0;
-      text-align: center;
-      color: white;
-      border: none;
-      border-radius: 0;
-      background: transparent;
-      background-clip: border-box;
-      -webkit-box-shadow: none;
-      box-shadow: none; }
-      .portfolio-modal .modal-dialog .modal-content h2 {
-        font-size: 46px;
-        margin: 0; }
-      .portfolio-modal .modal-dialog .modal-content .item-details {
-        margin: 30px 0; }
-    .portfolio-modal .modal-dialog .close-modal {
-      position: absolute;
-      top: 25px;
-      right: 25px;
-      width: 75px;
-      height: 75px;
-      cursor: pointer;
-      background-color: transparent; }
-      .portfolio-modal .modal-dialog .close-modal:hover {
-        opacity: 0.3; }
-      .portfolio-modal .modal-dialog .close-modal .lr {
-        /* Safari and Chrome */
-        z-index: 1051;
-        width: 1px;
-        height: 75px;
-        margin-left: 35px;
-        /* IE 9 */
-        -webkit-transform: rotate(45deg);
-        -ms-transform: rotate(45deg);
-        transform: rotate(45deg);
-        background-color: white; }
-        .portfolio-modal .modal-dialog .close-modal .lr .rl {
-          /* Safari and Chrome */
-          z-index: 1052;
-          width: 1px;
-          height: 75px;
-          /* IE 9 */
-          -webkit-transform: rotate(90deg);
-          -ms-transform: rotate(90deg);
-          transform: rotate(90deg);
-          background-color: white; }
+/*.portfolio-modal {*/
+  /*-webkit-background-size: cover;*/
+  /*-moz-background-size: cover;*/
+  /*-o-background-size: cover;*/
+  /*background-size: cover;*/
+  /*background-attachment: scroll; }*/
+  /*@media (min-width: 1024px) {*/
+    /*.portfolio-modal {*/
+      /*background-attachment: fixed; } }*/
+  /*@media only screen and (min-device-width: 768px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {*/
+    /*.portfolio-modal {*/
+      /*background-attachment: scroll; } }*/
+  /*.portfolio-modal .modal-backdrop {*/
+    /*display: none; }*/
+  /*.portfolio-modal .modal-dialog {*/
+    /*max-width: none; }*/
+    /*.portfolio-modal .modal-dialog .modal-content {*/
+      /*min-height: 100%;*/
+      /*padding: 100px 0;*/
+      /*text-align: center;*/
+      /*color: white;*/
+      /*border: none;*/
+      /*border-radius: 0;*/
+      /*background: transparent;*/
+      /*background-clip: border-box;*/
+      /*-webkit-box-shadow: none;*/
+      /*box-shadow: none; }*/
+      /*.portfolio-modal .modal-dialog .modal-content h2 {*/
+        /*font-size: 46px;*/
+        /*margin: 0; }*/
+      /*.portfolio-modal .modal-dialog .modal-content .item-details {*/
+        /*margin: 30px 0; }*/
+    /*.portfolio-modal .modal-dialog .close-modal {*/
+      /*position: absolute;*/
+      /*top: 25px;*/
+      /*right: 25px;*/
+      /*width: 75px;*/
+      /*height: 75px;*/
+      /*cursor: pointer;*/
+      /*background-color: transparent; }*/
+      /*.portfolio-modal .modal-dialog .close-modal:hover {*/
+        /*opacity: 0.3; }*/
+      /*.portfolio-modal .modal-dialog .close-modal .lr {*/
+        /*!* Safari and Chrome *!*/
+        /*z-index: 1051;*/
+        /*width: 1px;*/
+        /*height: 75px;*/
+        /*margin-left: 35px;*/
+        /*!* IE 9 *!*/
+        /*-webkit-transform: rotate(45deg);*/
+        /*-ms-transform: rotate(45deg);*/
+        /*transform: rotate(45deg);*/
+        /*background-color: white; }*/
+        /*.portfolio-modal .modal-dialog .close-modal .lr .rl {*/
+          /*!* Safari and Chrome *!*/
+          /*z-index: 1052;*/
+          /*width: 1px;*/
+          /*height: 75px;*/
+          /*!* IE 9 *!*/
+          /*-webkit-transform: rotate(90deg);*/
+          /*-ms-transform: rotate(90deg);*/
+          /*transform: rotate(90deg);*/
+          /*background-color: white; }*/
 
 .mockup-carousel .item {
   margin: 0;
