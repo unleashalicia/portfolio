@@ -145,7 +145,8 @@ header.masthead {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-attachment: scroll; }
+  background-attachment: scroll;
+  height: 98vh;}
   @media (min-width: 1024px) {
     header.masthead {
       background-attachment: fixed; } }
@@ -634,6 +635,8 @@ form .row:first-child .floating-label-form-group {
 
 footer.footer {
   padding: 50px 0 20px;
+  margin-bottom: 5vh;
+  border: 2px solid black;
   color: white;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -653,7 +656,7 @@ footer.footer {
   footer.footer p {
     font-size: 22px; }
   footer.footer .footer-contact-details {
-    margin: 5px 0; }
+    margin: 20px 0; }
   footer.footer .footer-social {
     margin-bottom: 75px; }
   footer.footer .copyright {
@@ -736,25 +739,23 @@ a.text-primary {
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     transition: all 0.5s; }
-    .owl-carousel.owl-theme .owl-controls .owl-prev:hover,
-    .owl-carousel.owl-theme .owl-controls .owl-next:hover {
-      opacity: 1; }
-  .owl-carousel.owl-theme .owl-controls .owl-prev {
-    left: 15px; }
-  .owl-carousel.owl-theme .owl-controls .owl-next {
-    right: 15px; }
-  .owl-carousel.owl-theme .owl-controls .owl-page span {
-    background: rgba(34, 34, 34, 0.5); }
+    /*.owl-carousel.owl-theme .owl-controls .owl-prev:hover,*/
+    /*.owl-carousel.owl-theme .owl-controls .owl-next:hover {*/
+      /*opacity: 1; }*/
+  /*.owl-carousel.owl-theme .owl-controls .owl-prev {*/
+    /*left: 15px; }*/
+  /*.owl-carousel.owl-theme .owl-controls .owl-next {*/
+    /*right: 15px; }*/
+  /*.owl-carousel.owl-theme .owl-controls .owl-page span {*/
+    /*background: rgba(34, 34, 34, 0.5); }*/
 
-.owl-carousel.owl-theme.portfolio-carousel .owl-controls .owl-prev {
-  left: 0; }
+/*.owl-carousel.owl-theme.portfolio-carousel .owl-controls .owl-prev {*/
+  /*left: 0; }*/
 
-.owl-carousel.owl-theme.portfolio-carousel .owl-controls .owl-next {
-  right: 0; }
+/*.owl-carousel.owl-theme.portfolio-carousel .owl-controls .owl-next {*/
+  /*right: 0; }*/
 
-/*.footer {*/
-  /*color: white !important;*/
-/*}*/
+
 
 .container.h-100 {
   text-shadow: 2px 2px 10px black;
