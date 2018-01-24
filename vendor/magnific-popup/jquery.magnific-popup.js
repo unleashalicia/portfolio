@@ -1,6 +1,10 @@
 /*! Magnific Popup - v1.1.0 - 2016-02-20
 * http://dimsemenov.com/plugins/magnific-popup/
 * Copyright (c) 2016 Dmitry Semenov; */
+
+
+{/*<div class="mfp-container mfp-image-holder mfp-s-error"><div class="mfp-content"><div class="mfp-figure"><button title="Close (Esc)" type="button" class="mfp-close">×</button><figure><img class="mfp-img" alt="crying angel statue" src="img/agency/portfolio/grid/grid-1.jpg" style="max-height: 717px;"><figcaption><div class="mfp-bottom-bar"><div class="mfp-title">Client Name</div><div class="mfp-counter"></div></div></figcaption></figure></div></div><div class="mfp-preloader"><a href="img/agency/portfolio/grid/grid-1.jpg">The image</a> could not be loaded.</div></div>*/}
+
 ;(function (factory) {
 if (typeof define === 'function' && define.amd) {
  // AMD. Register as an anonymous module.
