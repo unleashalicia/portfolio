@@ -636,12 +636,6 @@ form .row:first-child .floating-label-form-group {
 #technologies {
   padding: 50px 0 20px;
   margin-bottom: 5vh;
-  /*-webkit-background-size: cover;*/
-  /*-moz-background-size: cover;*/
-  /*-o-background-size: cover;*/
-  /*background-size: cover;*/
-  /*background-attachment: scroll; }*/
-}
 @media (min-width: 1024px) {
   #technologies {
     background-attachment: fixed; } }
@@ -665,8 +659,7 @@ footer.footer {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-attachment: scroll;
-  width: 95%;}
+  background-attachment: scroll;  }
   @media (min-width: 1024px) {
     footer.footer {
       background-attachment: fixed; } }
@@ -749,47 +742,13 @@ a.text-primary {
   padding-top: 40%;
 }
 
-/*.owl-carousel.owl-theme .owl-controls {*/
-  /*margin-top: 0; }*/
-  /*.owl-carousel.owl-theme .owl-controls .owl-prev,*/
-  /*.owl-carousel.owl-theme .owl-controls .owl-next {*/
-    /*font-size: 30px !important;*/
-    /*line-height: 50px;*/
-    /*position: absolute;*/
-    /*top: 0;*/
-    /*bottom: 0;*/
-    /*width: 40px;*/
-    /*height: 60px;*/
-    /*margin: auto 0 !important;*/
-    /*text-align: center;*/
-    /*color: white !important;*/
-    /*border-radius: 0 !important;*/
-    /*background-color: #5CB85C !important;*/
-    /*-webkit-transition: all 0.5s;*/
-    /*-moz-transition: all 0.5s;*/
-    /*transition: all 0.5s; }*/
-    /*.owl-carousel.owl-theme .owl-controls .owl-prev:hover,*/
-    /*.owl-carousel.owl-theme .owl-controls .owl-next:hover {*/
-      /*opacity: 1; }*/
-  /*.owl-carousel.owl-theme .owl-controls .owl-prev {*/
-    /*left: 15px; }*/
-  /*.owl-carousel.owl-theme .owl-controls .owl-next {*/
-    /*right: 15px; }*/
-  /*.owl-carousel.owl-theme .owl-controls .owl-page span {*/
-    /*background: rgba(34, 34, 34, 0.5); }*/
-
-/*.owl-carousel.owl-theme.portfolio-carousel .owl-controls .owl-prev {*/
-  /*left: 0; }*/
-
-/*.owl-carousel.owl-theme.portfolio-carousel .owl-controls .owl-next {*/
-  /*right: 0; }*/
-
-
-
 .container.h-100 {
   text-shadow: 2px 2px 10px black;
 }
 
 #technologies img{
   width: 80px;
+@media (max-width: 700px) {
+  width: 20px;}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
 }
