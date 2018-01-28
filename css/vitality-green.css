@@ -3,6 +3,7 @@
  * Copyright 2013-2017 Start Bootstrap
  * Purchase a license to use this theme at (https://wrapbootstrap.com)
  */
+
 html,
 body {
   height: 100%; }
@@ -367,70 +368,6 @@ header.video {
 .portfolio-gallery .item {
   padding: 15px; }
 
-/*.portfolio-modal {*/
-  /*-webkit-background-size: cover;*/
-  /*-moz-background-size: cover;*/
-  /*-o-background-size: cover;*/
-  /*background-size: cover;*/
-  /*background-attachment: scroll; }*/
-  /*@media (min-width: 1024px) {*/
-    /*.portfolio-modal {*/
-      /*background-attachment: fixed; } }*/
-  /*@media only screen and (min-device-width: 768px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {*/
-    /*.portfolio-modal {*/
-      /*background-attachment: scroll; } }*/
-  /*.portfolio-modal .modal-backdrop {*/
-    /*display: none; }*/
-  /*.portfolio-modal .modal-dialog {*/
-    /*max-width: none; }*/
-    /*.portfolio-modal .modal-dialog .modal-content {*/
-      /*min-height: 100%;*/
-      /*padding: 100px 0;*/
-      /*text-align: center;*/
-      /*color: white;*/
-      /*border: none;*/
-      /*border-radius: 0;*/
-      /*background: transparent;*/
-      /*background-clip: border-box;*/
-      /*-webkit-box-shadow: none;*/
-      /*box-shadow: none; }*/
-      /*.portfolio-modal .modal-dialog .modal-content h2 {*/
-        /*font-size: 46px;*/
-        /*margin: 0; }*/
-      /*.portfolio-modal .modal-dialog .modal-content .item-details {*/
-        /*margin: 30px 0; }*/
-    /*.portfolio-modal .modal-dialog .close-modal {*/
-      /*position: absolute;*/
-      /*top: 25px;*/
-      /*right: 25px;*/
-      /*width: 75px;*/
-      /*height: 75px;*/
-      /*cursor: pointer;*/
-      /*background-color: transparent; }*/
-      /*.portfolio-modal .modal-dialog .close-modal:hover {*/
-        /*opacity: 0.3; }*/
-      /*.portfolio-modal .modal-dialog .close-modal .lr {*/
-        /*!* Safari and Chrome *!*/
-        /*z-index: 1051;*/
-        /*width: 1px;*/
-        /*height: 75px;*/
-        /*margin-left: 35px;*/
-        /*!* IE 9 *!*/
-        /*-webkit-transform: rotate(45deg);*/
-        /*-ms-transform: rotate(45deg);*/
-        /*transform: rotate(45deg);*/
-        /*background-color: white; }*/
-        /*.portfolio-modal .modal-dialog .close-modal .lr .rl {*/
-          /*!* Safari and Chrome *!*/
-          /*z-index: 1052;*/
-          /*width: 1px;*/
-          /*height: 75px;*/
-          /*!* IE 9 *!*/
-          /*-webkit-transform: rotate(90deg);*/
-          /*-ms-transform: rotate(90deg);*/
-          /*transform: rotate(90deg);*/
-          /*background-color: white; }*/
-
 .mockup-carousel .item {
   margin: 0;
   padding: 0; }
@@ -636,30 +573,28 @@ form .row:first-child .floating-label-form-group {
 #technologies {
   padding: 50px 0 20px;
   margin-bottom: 5vh;
+
+}
 @media (min-width: 1024px) {
   #technologies {
     background-attachment: fixed; } }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
   #technologies {
     background-attachment: scroll; } }
-/*footer.footer .footer-contact-details {*/
-  /*margin: 20px 0; }*/
-/*footer.footer .footer-social {*/
-  /*margin-bottom: 75px; }*/
-/*footer.footer .copyright {*/
-  /*font-size: 1rem; */
 }
 
 footer.footer {
   padding: 50px 0 20px;
-  margin-bottom: 5vh;
+  padding-bottom: 40%;
+  /*margin-bottom: 5vh;*/
   border: 2px solid black;
   color: white;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-attachment: scroll;  }
+  background-attachment: scroll;
+  }
   @media (min-width: 1024px) {
     footer.footer {
       background-attachment: fixed; } }
@@ -678,6 +613,11 @@ footer.footer {
     margin-bottom: 75px; }
   footer.footer .copyright {
     font-size: 1rem; }
+
+  /*.contact-places {*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+  /*}*/
 
 .btn {
   font-weight: 900;
