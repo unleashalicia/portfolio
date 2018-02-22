@@ -22,7 +22,7 @@ hr.colored {
     max-width: 150px; } }
 
 section.page-section {
-  padding: 100px 0; }
+  padding: 100px 0 0; }
 
 @media (max-width: 767px) {
   section.page-section {
@@ -147,7 +147,7 @@ header.masthead {
   -o-background-size: cover;
   background-size: cover;
   background-attachment: scroll;
-  height: 98vh;}
+  height: 100vh;}
   @media (min-width: 1024px) {
     header.masthead {
       background-attachment: fixed; } }
@@ -322,6 +322,16 @@ header.video {
 @media (min-width: 992px) {
   .services .media {
     margin-bottom: 0; } }
+
+
+.firefly {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background: radial-gradient(yellow 5%, rgba(255, 255, 51, .8) 20%, transparent 100%);
+  position: absolute;
+  transition: 5s;
+}
 
 .portfolio-carousel {
   padding: 0;
@@ -571,8 +581,8 @@ form .row:first-child .floating-label-form-group {
   border-top: 1px solid #e1e1e1; }
 
 #technologies {
-  padding: 50px 0 20px;
-  margin-bottom: 5vh;
+  padding-bottom: 100px;
+
 
 }
 @media (min-width: 1024px) {
@@ -586,7 +596,6 @@ form .row:first-child .floating-label-form-group {
 footer.footer {
   padding: 50px 0 20px;
   padding-bottom: 40%;
-  /*margin-bottom: 5vh;*/
   border: 2px solid black;
   color: white;
   -webkit-background-size: cover;
@@ -597,7 +606,9 @@ footer.footer {
   }
   @media (min-width: 1024px) {
     footer.footer {
-      background-attachment: fixed; } }
+      background-attachment: fixed;
+      height: 40vh;}
+  }
   @media only screen and (min-device-width: 768px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
     footer.footer {
       background-attachment: scroll; } }
@@ -614,10 +625,6 @@ footer.footer {
   footer.footer .copyright {
     font-size: 1rem; }
 
-  /*.contact-places {*/
-    /*margin: 0;*/
-    /*padding: 0;*/
-  /*}*/
 
 .btn {
   font-weight: 900;
@@ -679,7 +686,7 @@ a.text-primary {
 
 .footer h4 {
   color: white;
-  padding-top: 40%;
+  padding-top: 25%;
 }
 
 .container.h-100 {
@@ -692,3 +699,5 @@ a.text-primary {
   width: 20px;}
 @media only screen and (min-device-width: 768px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
 }
+
+
