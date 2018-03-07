@@ -16,8 +16,6 @@ body {
     }
   }
 
-
-
 #firefly-zone {
   height: 100%;
   width: 100%;
@@ -39,6 +37,19 @@ body {
 
 .tech-icon-row {
   font-size: 10vmin;
+}
+
+#contact {
+  background-image: url('../img/creative/backgrounds/darktrees.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  border: 1px solid black;
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#contact .contact-places {
+  text-shadow: 0 0 30px black;
 }
 
 
