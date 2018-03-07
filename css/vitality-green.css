@@ -37,6 +37,11 @@ body {
   transition: 5s;
 }
 
+.tech-icon-row {
+  font-size: 10vmin;
+}
+
+
 hr {
   max-width: 100px;
   height: 2px;
