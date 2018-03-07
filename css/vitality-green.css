@@ -1,12 +1,41 @@
-/*!
- * Vitality v2.0.2 (http://themes.startbootstrap.com/vitality-v2.0.2)
- * Copyright 2013-2017 Start Bootstrap
- * Purchase a license to use this theme at (https://wrapbootstrap.com)
- */
-
 html,
 body {
   height: 100%; }
+
+#firefly-section.page-section {
+  background-image: url('../img/creative/backgrounds/firefly_1.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh;
+  background-position: top;
+  position: relative;}
+  @media (max-width: 500px){
+    #firefly-section.page-section {
+      height: 100vh;
+    }
+  }
+
+
+
+#firefly-zone {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+
+.firefly {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background: radial-gradient(yellow 5%, rgba(255, 255, 51, .8) 20%, transparent 100%);
+  position: absolute;
+  transition: 5s;
+}
 
 hr {
   max-width: 100px;
@@ -342,15 +371,6 @@ header.video {
   .services .media {
     margin-bottom: 0; } }
 
-
-.firefly {
-  height: 20px;
-  width: 20px;
-  border-radius: 50%;
-  background: radial-gradient(yellow 5%, rgba(255, 255, 51, .8) 20%, transparent 100%);
-  position: absolute;
-  transition: 5s;
-}
 
 .portfolio-carousel {
   padding: 0;
@@ -719,9 +739,4 @@ a.text-primary {
   width: 20px;}
 @media only screen and (min-device-width: 768px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
 }
-
-
-
-
-
 
