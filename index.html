@@ -35,33 +35,7 @@
 
      <link href="css/vitality-green.css" rel="stylesheet" type="text/css">
     <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
-    <script>
-        $(document).ready(
-            function(){
-                $( "#email" ).append( $("<a>",{text: "alicia.adams.evans@gmail.com",href:"mailto:alicia.adams.evans@gmail.com"}));
-
-                $("#aliciaName").css({
-                    color: "rgba(255, 255, 255, 1)",
-                    fontSize: "4rem",
-                    filter: "blur(2px)"
-                });
-
-
-                setTimeout(function(){
-                    $("#aliciaName").css({
-                        textShadow: "10px 10px 30px black"
-                    })
-                }, 200);
-
-                setTimeout(function(){
-                    $("#aliciaName").css({
-                        filter: "blur(0px)"
-                    });
-                }, 300);
-
-            }
-        );
-    </script>
+    <script src="./js/addOns.js"></script>
 
   </head>
 
@@ -136,8 +110,8 @@
       </div>
     </section>
 
-    <section class="page-section" style="background-image: url('img/creative/backgrounds/firefly_1.jpg'); background-attachment: fixed; background-repeat: no-repeat; background-size: cover; height: 40vh; background-position: top; position: relative;">
-      <div style="height: 100%; width: 100%; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); overflow: hidden;">
+    <section class="page-section" id="firefly-section" >
+      <div id="firefly-zone">
         <div class="firefly"></div>
         <div class="firefly"></div>
         <div class="firefly"></div>
@@ -173,7 +147,7 @@
           <!-- Grid Item 1 -->
           <div class="mix identity" href="img/agency/portfolio/grid/grid-1.jpg" title="Client Name">
             <div class="portfolio-wrapper">
-              <img src="img/creative/final-t.jpg" alt="final transmissions landing page">
+              <img src="img/creative/final-transmissions-screenshot.jpg" alt="final transmissions landing page">
               <div class="caption">
                 <div class="caption-text">
                   <a class="text-title">Final Transmissions</a>
@@ -191,14 +165,14 @@
           <!-- Grid Item 2 -->
           <div class="mix web" href="img/agency/portfolio/grid/grid-2.jpg" title="Client Name">
             <div class="portfolio-wrapper">
-              <img src="img/creative/bigger-loot.jpg" alt="dragon den card game">
+              <img src="img/creative/loot-cave-screen.jpg" alt="dragon den card game">
               <div class="caption">
                 <div class="caption-text">
                   <a class="text-title">Loot Cave</a>
                   <span class="text-category">A Dungeon Crawl Card Game</span>
                   <div class="check-it-out">
                    <a href="https://github.com/unleashalicia/loot_cave" target="_blank" ><i class="fa fa-github" aria-hidden="true"></i></a>
-                    <a href="#" target="_blank"><i class="fa fa-globe"></i></a>
+                    <a href="http://lootcave.aliciaadamsevans.com" target="_blank"><i class="fa fa-globe"></i></a>
                   </div>
                 </div>
                 <div class="caption-bg"></div>
@@ -209,14 +183,14 @@
           <!-- Grid Item 3 -->
           <div class="mix web" href="img/agency/portfolio/grid/grid-3.jpg" title="Client Name">
             <div class="portfolio-wrapper">
-              <img src="img/creative/next-meal_oc.jpg" alt="soup kitchen finder" >
+              <img src="img/creative/nmoc.jpg" alt="soup kitchen finder" >
               <div class="caption">
                 <div class="caption-text">
                   <a class="text-title">Next Meal OC</a>
                   <span class="text-category">A Soup Kitchen Finder for OC's Hungry & Homeless</span>
                   <div class="check-it-out">
                     <a href="https://github.com/unleashalicia/Next-Meal-OC" target="_blank" ><i class="fa fa-github" aria-hidden="true"></i></a>
-                    <a href="#" target="_blank"><i class="fa fa-globe"></i></a>
+                    <a href="http://www.nextmealoc.com" target="_blank"><i class="fa fa-globe"></i></a>
                   </div>
                 </div>
                 <div class="caption-bg"></div>
@@ -235,7 +209,7 @@
           <h2>Technologies</h2>
           <hr class="colored">
 
-          <div class="row" style="font-size: 10vmin">
+          <div class="row tech-icon-row">
 
               <div class="col-md-2 col-sm-4 col-6">
                 <img src="./img/creative/icons/js.png"/>
@@ -267,7 +241,7 @@
                 <p>GitHub</p>
               </div>
           </div>
-          <div class="row" style="font-size: 10vmin">
+          <div class="row tech-icon-row">
 
             <div class="col-md-2 col-sm-4 col-6">
               <img src="./img/creative/icons/html%20(1).png"/>
@@ -300,7 +274,7 @@
             </div>
 
           </div>
-          <div class="row" style="font-size: 10vmin">
+          <div class="row tech-icon-row">
 
             <div class="col-md-2 col-sm-4 col-6">
               <img src="./img/creative/icons/ajax.png"/>
@@ -313,8 +287,8 @@
             </div>
 
             <div class="col-md-2 col-sm-4 col-6">
-              <img src="./img/creative/icons/php_storm.png"/>
-              <p>phpStorm</p>
+              <img src="./img/creative/icons/firebase.png"/>
+              <p>Firebase</p>
             </div>
 
             <div class="col-md-2 col-sm-4 col-6">
@@ -336,7 +310,7 @@
             </div>
           </div>
 
-          <div class="row justify-content-md-center justify-content-sm-center" style="font-size: 10vmin">
+          <div class="row justify-content-md-center justify-content-sm-center tech-icon-row">
 
             <div class="col-md-2 col-sm-4 col-6">
               <img src="./img/creative/icons/aframe-logo.png"/>
@@ -354,9 +328,9 @@
 
 
     <!-- Footer -->
-    <footer class="footer page-section" id="contact" style="background-image: url('img/creative/backgrounds/darktrees.jpg'); background-size: cover; background-repeat: no-repeat; background-position: bottom; border: 1px solid black; font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; ">
+    <footer class="footer page-section" id="contact">
       <div class="container text-center">
-        <div class="row contact-places justify-content-sm-center" style="text-shadow: 0px 0px 30px black">
+        <div class="row contact-places justify-content-sm-center">
           <div class="col-sm-6 col-12 col-lg-4 footer-contact-details">
             <h4>
               <i class="fa fa-github" aria-hidden="true"></i>
