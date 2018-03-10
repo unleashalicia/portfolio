@@ -1,4 +1,4 @@
-var startX, startY, xCoordinate, yCoordinate, duration, opacity;
+var startX, startY, xCoordinate, yCoordinate;
 
 animate();
 
@@ -7,8 +7,8 @@ function animate(){
     for (var i=1; i<21; i++){
         startX = Math.random() * 100;
         startY = Math.random() * 100;
-        opacityArr = [0, 1];
-        opacity = opacityArr[Math.floor(Math.random()*2)];
+        var opacityArr = [0, 1];
+        var opacity = opacityArr[Math.floor(Math.random()*2)];
         $('.firefly:nth-child('+i+')').css({
             left: startX + '%',
             top: startY + '%',
@@ -17,7 +17,6 @@ function animate(){
         move(i);
         flicker(i, opacity);
     }
-
 }
 
 
@@ -37,14 +36,24 @@ function move(i){
 }
 
 function flicker(i, opacity){
-    duration = Math.random() * 5;
-    opacity = Math.abs(opacity - 1);
+    var duration = Math.random() * 5;
+    var opacity = Math.abs(opacity - 1);
+    var wait = (Math.random() * 6000000) + 1000000;
 
     $('.firefly:nth-child('+i+')').animate({
         opacity: opacity
     });
 
     setTimeout(function(){flicker(i, opacity)}, (duration * 1000));
+    setTimeout(function(){
+        die(i);
+    }, wait);
+}
+
+function die(i){
+    $('.firefly:nth-child('+i+')').animate({
+        opacity: 0
+    }).remove();
 }
 
 
