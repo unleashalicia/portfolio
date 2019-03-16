@@ -740,9 +740,14 @@ a.text-primary {
 .bg-inverse {
   background-color: #222 !important; }
 
-.footer h4 {
+.footer h4,
+.footer-contact-method {
   color: white;
   padding-top: 25%;
+  font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-bottom: 5px;
 }
 
 .container.h-100 {
